@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+myrequirements/__init__.py
+myrequirements/requirement_manager.py
+myrequirements.egg-info/PKG-INFO
+myrequirements.egg-info/SOURCES.txt
+myrequirements.egg-info/dependency_links.txt
+myrequirements.egg-info/entry_points.txt
+myrequirements.egg-info/requires.txt
+myrequirements.egg-info/top_level.txt
