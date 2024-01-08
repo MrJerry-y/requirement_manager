@@ -21,4 +21,11 @@ here is an example
 Cool Cool 
 the true and false value help to seperate development and deployment dependencies , true -> for those requirements that are needed 
 while deploying your application and false are for those that are needed only in development and are not required in deployment  
+run it 
 
+add this proj in your working dir and crete json containing requirements
+
+```bash
+python requirement_manager.py <input.json>
+```
+it will suppoer Yaml format soon 
