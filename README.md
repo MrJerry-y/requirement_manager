@@ -5,8 +5,8 @@ we do
 ```bash
 pip freeze > requirements.txt
 ``` 
-and all the dependencies are packedup in single files, their were lots of method to seperate development dependencies and deployment 
-dependencies one is by using pip tools. but i tried to create a simple one 
+and all the dependencies are packedup in single file, there were lots of method to seperate development dependencies and deployment 
+dependencies one is by using pip tools. but I've tried to create a simple one 
 
 you just need to have a little knowledge of json 
 in this system you are not going to create a requirements.txt file, you will be writing a json file for your requirements 
@@ -23,9 +23,9 @@ the true and false value help to seperate development and deployment dependencie
 while deploying your application and false are for those that are needed only in development and are not required in deployment  
 run it 
 
-add this proj in your working dir and crete json containing requirements
+add this project in your working dir and create json containing requirements
 
 ```bash
 python requirement_manager.py <input.json>
 ```
-it will suppoer Yaml format soon 
+it will support Yaml format soon 
