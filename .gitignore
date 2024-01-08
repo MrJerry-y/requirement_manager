@@ -8,4 +8,5 @@ venv/
 .env/
 .venv/
 */env/
-
+dist/
+build/
